@@ -1,0 +1,21 @@
+.heart {
+    width: 100px;
+    height: 75px;
+}
+
+.heart_top {
+    display: flex;
+}
+
+.heart_top_left, .heart_top_right {
+    width: 50px;
+    height: 25px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+}
+.heart_bottom {
+    background: red;
+    border-radius:  0 0 50px 50px;
+    height: 50px;
+    
+}
